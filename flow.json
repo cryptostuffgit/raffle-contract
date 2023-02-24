@@ -1,0 +1,27 @@
+{
+	"contracts": {
+		"RaffleContract": "cadence/contracts/Raffle.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"default": {
+			"address": "f3fcd2c1a78f5eee",
+			"key": "2fde08b1f20f5bff0fe6af2e2203be0610655231af7b54604379456d1c70f936"
+		},
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "6d12eebfef9866c9b6fa92b97c6e705c26a1785b1e7944da701fc545a51d4673"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"default": [
+				"RaffleContract"
+			]
+		}
+	}
+}
